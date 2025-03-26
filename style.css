@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffffff;
+}
+
+.backgroundHeader {
+
+    width: 99vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 3rem;
+    position: relative;
+}
+
+
+nav {
+    display: flex;
+  
+}
+
+nav img {
+    width: 35%;
+}
+
+.containerLogo {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+li {
+    font-size: 1.8rem;
+    display: grid;
+}
+
+a:hover {
+    color: #0803225e;
+}
+
+ul {
+    margin-left: 9%;
+    margin-top: 2.5%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 9%;
+    margin-top: 2.5%;
+    
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FF8A00;
+    font-size: 3rem;
+    margin-left: 100px;
+}
+
+
+.imageHeader {
+    width: 19%;
+    height: 300px;
+    border-radius: 50px;
+    margin-left: 4.3%; 
+    margin-top: 4%;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.imageHeader:hover {
+    transform: scale(1.1); 
+}
+
+.containerHead {
+    display: flex;
+    align-items: center; 
+
+}
+
+.imgMain {
+    width: 27%;
+    max-width: 100%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+main p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FF8A00;
+    font-size: 2.3rem;
+}
+
+.title {
+    font-size: 5.4rem;
+    font-style: bold;
+    color: #000;
+    margin-left: 5%;
+}
+
+.titlePizza {
+    font-weight: bold;
+    color: #d97706; 
+}
+
+.containerSub {
+    margin-top: 4%;
+
+}
