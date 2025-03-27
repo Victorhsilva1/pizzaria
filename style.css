@@ -130,3 +130,38 @@ main p {
 .logoMenu {
    width: 10%;
 }
+
+aside {
+    background-color: rgb(247, 215, 174);
+}
+
+.containerServices {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10%;
+    max-width: 90%;
+    margin-left: 5%;
+}
+.card {
+    background-color: #fbe5c0;
+    border: 2px solid orange;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.titleCard {
+    font-size: 3rem;
+    color: #d97706;
+    font-style: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30%;
+}
+
+.subtitleCard {
+    font-size: 1.3rem;
+    font-style: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10%;
+    margin-bottom: 17%;
+}
