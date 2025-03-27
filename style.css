@@ -133,6 +133,7 @@ main p {
 
 aside {
     background-color: rgb(247, 215, 174);
+    
 }
 
 .containerServices {
@@ -148,6 +149,7 @@ aside {
     padding: 20px;
     text-align: center;
     border-radius: 20px;
+    margin-bottom: 19%;
 }
 
 .titleCard {
@@ -164,4 +166,32 @@ aside {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 10%;
     margin-bottom: 17%;
+}
+
+footer {
+    background-color: #d97706;
+}
+
+.containerFooter {
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-content: left;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato p {
+font-size: 3rem;
+color: white;
+margin-top: 3%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.liFooter {
+    color: white;
+    font-size: 2rem;
 }
