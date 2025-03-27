@@ -4,20 +4,18 @@
     box-sizing: border-box;
 }
 
-html {
-    background-color: #ffffff;
-}
-
 .backgroundHeader {
-
     width: 99vw;
-    height: 100vh;
+    height: 115vh;
     position: absolute;
     z-index: -1;
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive;
+    font-size: 30px;
+    color: #FF8A00;
+
 }
 
 h2 {
@@ -25,10 +23,8 @@ h2 {
     position: relative;
 }
 
-
 nav {
     display: flex;
-  
 }
 
 nav img {
@@ -42,7 +38,7 @@ nav img {
 }
 
 li {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     display: grid;
 }
 
@@ -50,35 +46,26 @@ a:hover {
     color: #0803225e;
 }
 
-ul {
-    margin-left: 9%;
-    margin-top: 2.5%;
-}
-
 a{
     text-decoration: none;
     color: inherit;
     margin-left: 9%;
     margin-top: 2.5%;
-    
 }
 
 h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #FF8A00;
     font-size: 3rem;
-    margin-left: 100px;
 }
-
 
 .imageHeader {
     width: 19%;
-    height: 300px;
+    height: 250px;
     border-radius: 50px;
     margin-left: 4.3%; 
     margin-top: 4%;
-    transition: transform 0.3s ease-in-out;
-    
+    transition: transform 0.3s ease-in-out; 
 }
 
 .imageHeader:hover {
@@ -105,7 +92,7 @@ main p {
 }
 
 .title {
-    font-size: 5.4rem;
+    font-size: 4rem;
     font-style: bold;
     color: #000;
     margin-left: 5%;
@@ -118,5 +105,17 @@ main p {
 
 .containerSub {
     margin-top: 4%;
+    display: flex;
+    align-items: center;
 
+}
+
+.containerFavorite {
+    gap: 20px;
+    padding-bottom: 20px; 
+    border-bottom: 2px solid orange; 
+}
+
+.logoMenu {
+   width: 10%;
 }
