@@ -69,7 +69,19 @@ h3 {
     transition: transform 0.3s ease-in-out; 
 }
 
+.imageDrink {
+    width: 16%;
+    height: 290px;
+    margin-left: 2.3%; 
+    margin-top: 4%;
+    transition: transform 0.3s ease-in-out; 
+}
+
 .imageHeader:hover {
+    transform: scale(1.1); 
+}
+
+.imageDrink:hover {
     transform: scale(1.1); 
 }
 
